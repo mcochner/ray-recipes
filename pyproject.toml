@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ray-recipes"
+version = "0.1.0"
+description = ""
+authors = ["Martin Cochner"]
+readme = "README.md"
+packages = [{include = "ray_recipes"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ray = "^2.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
